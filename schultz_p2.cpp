@@ -52,7 +52,6 @@ int main(int argc, char *argv[]){
   }
 
 string chuteValue = "";
-int i=0;
 cout<<config;
   for(char marble: marbles){
     cout<<"->";
