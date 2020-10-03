@@ -55,11 +55,7 @@ string chuteValue = "";
 int i=0;
 cout<<config;
   for(char marble: marbles){
-    if(i!=0){
-      cout<<"->";
-    } else{
-      i = 1;
-    }
+    cout<<"->";
     if(marble=='0'){
       if(x1->direction==0){//Left at x1
         x1->direction = 1;//x1(L,0) = R
